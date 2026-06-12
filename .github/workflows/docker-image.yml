@@ -28,6 +28,7 @@ jobs:
     - name: Build docker image
       run: |
         docker build -t jmartinv/docker-graphql:0.0.3 .
+        docker build -t jmartinv/docker-graphql:latest .
 
     - name: Push docker image
       run: |
