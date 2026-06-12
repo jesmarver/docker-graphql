@@ -32,4 +32,4 @@ jobs:
     - name: Push docker image
       run: |
         docker push jmartinv/docker-graphql:0.0.3
-        docker push jmartinv/docker-graphql
+        docker push jmartinv/docker-graphql:latest
